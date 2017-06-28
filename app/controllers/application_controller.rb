@@ -11,7 +11,7 @@ class ApplicationController < ActionController::Base
   end
   
   def logged_in?
-    #convert to boolean
+    #here it's converted to boolean
     !!current_user
   end
   
